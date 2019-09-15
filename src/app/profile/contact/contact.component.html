@@ -1,0 +1,90 @@
+<div class="section" id="contact">
+        <div class="cc-contact-information" style="background-image: url('assets/images/contact.jpg');">
+          <div class="container">
+            <div class="cc-contact">
+              <div class="row">
+                <div class="col-md-9">
+                  <div class="card mb-0" data-aos="zoom-in">
+                    <div class="h4 text-center title">Contact Me</div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="card-body">
+                          <form name="form" (ngSubmit)="f.form.valid ; f.resetForm()" #f="ngForm" novalidate>
+                            <div class="p pb-3">
+                              <strong>Feel free to contact me </strong>
+                            </div>
+                            <div class="row mb-3">
+                              <div class="col">
+                                <div class="input-group">
+                                  <span class="input-group-addon">
+                                    <i class="fa fa-user-circle"></i>
+                                  </span>
+                                  <input class="form-control" type="text" name="name" placeholder="Name"
+                                    [(ngModel)]="model.name" #name="ngModel"
+                                    [ngClass]="{ 'is-invalid': f.submitted && name.invalid }" required />
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row mb-3">
+                              <div class="col">
+                                <div class="input-group">
+                                  <span class="input-group-addon">
+                                    <i class="fa fa-file-text"></i>
+                                  </span>
+                                  <input class="form-control" type="text" name="subject" placeholder="Subject"
+                                    [(ngModel)]="model.subject" #subject="ngModel"
+                                    [ngClass]="{ 'is-invalid': f.submitted && subject.invalid }" required />
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row mb-3">
+                              <div class="col">
+                                <div class="input-group">
+                                  <span class="input-group-addon">
+                                    <i class="fa fa-envelope"></i>
+                                  </span>
+                                  <input class="form-control" type="text" name="email" placeholder="E-mail"
+                                    [(ngModel)]="model.email" #email="ngModel"
+                                    [ngClass]="{ 'is-invalid': f.submitted && email.invalid }"
+                                    pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" required />
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row mb-3">
+                              <div class="col">
+                                <div class="form-group">
+                                  <textarea class="form-control" name="message" placeholder="Your Message"
+                                    [(ngModel)]="model.message" #message="ngModel"
+                                    [ngClass]="{ 'is-invalid': f.submitted && message.invalid }" required></textarea>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col">
+                                <button class="btn btn-primary" type="submit">Send</button>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="card-body">
+                          <p class="mb-0">
+                            <strong>Phone</strong>
+                          </p>
+                          <p class="pb-2">+91 9974990993</p>
+                          <p class="mb-0">
+                            <strong>Email</strong>
+                          </p>
+                          <p>mehulkothari05@gmail.com</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ng-snotify class="material"></ng-snotify>
