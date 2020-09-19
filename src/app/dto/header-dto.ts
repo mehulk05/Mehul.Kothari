@@ -1,5 +1,4 @@
 export class HeaderDTO {
-    public title: string;
     public siteTitle: string;
     public navbarAbout: string;
     public navbarExperience: string;

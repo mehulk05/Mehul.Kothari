@@ -1,0 +1,20 @@
+{
+    "imageBackGroundUrl": "/assets/image/devandreacarratta-header.jpg",
+    "imageProfileUrl": "/assets/image/andrea-carratta.jpg",
+    "fullName":"Andrea Carratta",
+    "shortDescription": "aaaa",
+    "buttons":
+    [
+        { "description" : "a" , "linkUrl":"d"},
+        { "description" : "s" , "linkUrl":"f"}
+    ],
+    "socials":
+    [
+        { "socialId" : "facebook" , "profileUrl":"https://www.facebook.com/....", "followMeText":""},
+        { "socialId" : "instagram" , "profileUrl":"https://www.instagram.com/....", "followMeText":""},
+        { "socialId" : "linkedin" , "profileUrl":"https://www.linkedin.com/in/acarratta/", "followMeText":""},
+        { "socialId" : "github" , "profileUrl":"https://github.com/devandreacarratta/", "followMeText":""},
+        { "socialId" : "twitter" , "profileUrl":"https://twitter.com/....", "followMeText":""}
+
+    ]
+}

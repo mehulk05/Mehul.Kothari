@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { IntroDTO } from 'src/app/dto/intro-dto';
+import { ApiService } from 'src/app/service/api.service';
 
 @Component({
   selector: 'app-intro',
@@ -7,9 +9,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IntroComponent implements OnInit {
 
-  constructor() { }
+  public data:IntroDTO;
+
+  constructor(private api: ApiService) { }
 
   ngOnInit() {
+
+    this.api.getIntro().subscribe((data)=>{      
+      this.data = data;
+    });
+
+
   }
+
 
 }

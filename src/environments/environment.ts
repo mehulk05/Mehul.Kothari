@@ -10,6 +10,7 @@ export const environment = {
   //baseUrl : `http://localhost:4200/`,
   
   apiUrlHeaderGet: 'http://localhost:4200/assets/json/header.json',
+  apiUrlIntroGet: 'http://localhost:4200/assets/json/intro.json',
   apiUrlAboutGet: 'http://localhost:4200/assets/json/about.json',
 
   snotifyConfig : {
