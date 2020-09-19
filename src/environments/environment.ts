@@ -12,6 +12,7 @@ export const environment = {
   apiUrlHeaderGet: 'http://localhost:4200/assets/json/header.json',
   apiUrlIntroGet: 'http://localhost:4200/assets/json/intro.json',
   apiUrlAboutGet: 'http://localhost:4200/assets/json/about.json',
+  apiUrlExperienceGet: 'http://localhost:4200/assets/json/experience.json',
 
   snotifyConfig : {
     showProgressBar: true,

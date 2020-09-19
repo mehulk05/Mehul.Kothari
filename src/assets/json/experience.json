@@ -1,0 +1,35 @@
+{
+    "experienceTitle": "Jobs Experience",
+    "jobs":
+    [
+        {
+            "company":"Company Hide Name",
+            "period": "2018 - now",
+            "jobTitle": "Freelance",
+            "description": "Senior Developer / Cloud",
+            "skills": 
+            [
+                "Azure: Azure Function (HTTP / Timer & Queue), Datalake Analitics / DataLake Storage, Datafactory V2, Logic Apps",
+                "Source control: Git, Visual Studio Online",
+                "C# ( .NET & netcore), MS SQL Server, USQL",
+                " Azure Data Factory, USQL, SQL Server e Azure Function",
+                "Dispatch SMS: Twilio, Commzgate, SMSS360 and other providers with API",
+                "Dispatch Mail: Mailgun, ZeroBounce",
+                "Microsoft Visual Studio 2017 & 2019 ( & Code), Microsoft SQL Server Management Studio (SSMS), Azure Storage Explorer, Postman"
+            ]
+        },
+        {
+            "company":"Company Hide Name",
+            "period": "2005 - 2018",
+            "jobTitle": "Freelance",
+            "description": "Senior Developer",
+            "skills": 
+            [
+                ".NET",
+                "Microsoft Visual Studio 2013 - TFS / Microsoft SQL Server",
+                "Database: MS SQL Server, MySQL, XML, CSV",
+                "C# , SQL , TSQL"
+            ]
+        }
+    ]
+}

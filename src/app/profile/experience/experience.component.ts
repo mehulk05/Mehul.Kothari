@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ExperienceDTO } from 'src/app/dto/experience-dto';
+import { ApiService } from 'src/app/service/api.service';
 
 @Component({
   selector: 'app-experience',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExperienceComponent implements OnInit {
 
-  constructor() { }
+  data:ExperienceDTO;
+
+  constructor(private api: ApiService) { }
 
   ngOnInit() {
+
+    this.api.getExperience().subscribe((data)=>{      
+      this.data = data;
+    });
   }
 
 }

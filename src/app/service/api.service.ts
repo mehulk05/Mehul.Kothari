@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/internal/Observable';
 import { environment } from 'src/environments/environment';
 import { AboutDTO } from '../dto/about-dto';
+import { ExperienceDTO } from '../dto/experience-dto';
 import { HeaderDTO } from '../dto/header-dto';
 import { IntroDTO } from '../dto/intro-dto';
 
@@ -25,6 +26,11 @@ export class ApiService {
 
   public getAbout(): Observable<AboutDTO>{
     let result = this.httpClient.get<AboutDTO>(environment.apiUrlAboutGet);
+    return result;
+  }
+
+  public getExperience(): Observable<ExperienceDTO>{
+    let result = this.httpClient.get<ExperienceDTO>(environment.apiUrlExperienceGet);
     return result;
   }
 
