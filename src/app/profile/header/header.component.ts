@@ -19,7 +19,6 @@ export class HeaderComponent implements OnInit {
       this.data = data;
     });
 
-    console.log(this.data);
 
   }
 
