@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { HeaderDTO } from 'src/app/dto/header-dto';
+import { ApiService } from 'src/app/service/api.service';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +9,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  data:HeaderDTO;
+
+  constructor(private api: ApiService) { }
 
   ngOnInit() {
+
+    this.api.getHeader().subscribe((data)=>{      
+      this.data = data;
+    });
+
+    console.log(this.data);
+
   }
 
 }

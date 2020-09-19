@@ -9,7 +9,7 @@ export const environment = {
   //baseUrl : `${window.location.protocol}//${window.location.hostname}/portfolio/`,
   //baseUrl : `http://localhost:4200/`,
   
-  apiUrlHeaderGet: '',
+  apiUrlHeaderGet: 'http://localhost:4200/assets/json/header.json',
 
   snotifyConfig : {
     showProgressBar: true,

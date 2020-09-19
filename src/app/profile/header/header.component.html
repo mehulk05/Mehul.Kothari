@@ -3,7 +3,7 @@
       <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
         <div class="container">
           <div class="navbar-translate">
-            <a class="navbar-brand" href="#" rel="tooltip">Mehul's CV</a>
+            <a class="navbar-brand" href="#" rel="tooltip">{{ data.siteTitle }}</a>
             <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
               aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-bar bar1"></span>
@@ -14,29 +14,29 @@
           <div class="collapse navbar-collapse justify-content-end" id="navigation">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link smooth-scroll" href="#about">About</a>
+                <a class="nav-link smooth-scroll" href="#about">{{ data.navbarAbout }}</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link smooth-scroll" href="#experience">Experience</a>
+                  <a class="nav-link smooth-scroll" href="#experience">{{ data.navbarExperience }}</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link smooth-scroll" href="#projects">Projects</a>
+                    <a class="nav-link smooth-scroll" href="#projects">{{ data.navbarProjects }}</a>
                   </li>
               <li class="nav-item">
-                <a class="nav-link smooth-scroll" href="#skill">Skills</a>
+                <a class="nav-link smooth-scroll" href="#skill">{{ data.navbarSkills }}</a>
               </li>
              
               <li class="nav-item">
-                <a class="nav-link smooth-scroll" href="#education">Education</a>
+                <a class="nav-link smooth-scroll" href="#education">{{ data.navbarEducation }}</a>
               </li>
 
               <li class="nav-item">
-                  <a class="nav-link smooth-scroll" href="#reference">Reference</a>
+                  <a class="nav-link smooth-scroll" href="#reference">{{ data.navbarReference }}</a>
                 </li>
 
               <li class="nav-item">
-                <a class="nav-link smooth-scroll" href="#contact">Contact</a>
+                <a class="nav-link smooth-scroll" href="#contact">{{ data.navbarContact }}</a>
               </li>
             </ul>
           </div>

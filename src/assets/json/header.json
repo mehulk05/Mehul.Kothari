@@ -1,0 +1,10 @@
+{
+    "siteTitle" : "DEV Portfolio API",
+    "navbarAbout" : "About",
+    "navbarExperience" : "Experience",
+    "navbarProjects" : "Projects",
+    "navbarSkills" : "Skills",
+    "navbarEducation" : "Education",
+    "navbarReference" : "Reference",
+    "navbarContact" : "Contact"
+}
