@@ -13,14 +13,14 @@
           </div>
           <div class="h2 title">{{ data.fullName }}</div>
           <p class="category text-white">{{ data.shortDescription }} </p>
-          <a class="btn btn-primary smooth-scroll mr-2" href="{{b.linkUrl}}" data-aos="zoom-in" data-aos-anchor="data-aos-anchor"  *ngFor="let b of data.buttons">{{b.description}}</a>
+          <a class="btn btn-primary smooth-scroll mr-2" href="{{b.linkUrl}}" data-aos="zoom-in" data-aos-anchor="data-aos-anchor" target="_blank" *ngFor="let b of data.buttons">{{b.description}}</a>
         </div>
       </div>
 
       <div class="section">
         <div class="container">
           <div class="button-container">
-            <a class="btn btn-default btn-round btn-lg btn-icon" href="{{ s.profileUrl }}" target="_blank" rel="tooltip" title="{{ s.followMeText }}"  *ngFor="let s of data.socials">
+            <a class="btn btn-default btn-round btn-lg btn-icon" href="{{ s.profileUrl }}" target="_blank" rel="tooltip" title="{{ s.followMeText }}"  target="_blank"  *ngFor="let s of data.socials">
               <i class="fa fa-{{ s.socialId }}"></i>
             </a>
           </div>
