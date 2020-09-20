@@ -13,3 +13,4 @@ export class AboutDTO {
     public languageTitle: string;
     public languageValue: string;
 }
+

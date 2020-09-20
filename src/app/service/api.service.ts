@@ -4,6 +4,7 @@ import { Observable } from 'rxjs/internal/Observable';
 import { environment } from 'src/environments/environment';
 import { AboutDTO } from '../dto/about-dto';
 import { ExperienceDTO } from '../dto/experience-dto';
+import { FooterDTO } from '../dto/footer-dto';
 import { HeaderDTO } from '../dto/header-dto';
 import { IntroDTO } from '../dto/intro-dto';
 import { SkillsDTO } from '../dto/skills-dto';
@@ -37,6 +38,11 @@ export class ApiService {
 
   public getSkill(): Observable<SkillsDTO>{
     let result = this.httpClient.get<SkillsDTO>(environment.apiUrlSkillGet);
+    return result;
+  }
+
+  public getFooter(): Observable<FooterDTO>{
+    let result = this.httpClient.get<FooterDTO>(environment.apiUrlFooterGet);
     return result;
   }
 

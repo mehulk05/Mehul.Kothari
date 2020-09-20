@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { FooterDTO } from 'src/app/dto/footer-dto';
+import { IntroDTO } from 'src/app/dto/intro-dto';
+import { ApiService } from 'src/app/service/api.service';
 
 @Component({
   selector: 'app-footer',
@@ -7,9 +10,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
-  constructor() { }
+  public dataIntro:IntroDTO;
+  public dataFooter:FooterDTO;
+
+  constructor(private api: ApiService) { }
 
   ngOnInit() {
+
+    this.api.getIntro().subscribe((dataI)=>{      
+      this.dataIntro = dataI;
+    });
+
+    this.api.getFooter().subscribe((dataF)=>{      
+      this.dataFooter = dataF;
+    });    
   }
 
 }
