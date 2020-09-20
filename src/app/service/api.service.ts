@@ -6,6 +6,7 @@ import { AboutDTO } from '../dto/about-dto';
 import { ExperienceDTO } from '../dto/experience-dto';
 import { HeaderDTO } from '../dto/header-dto';
 import { IntroDTO } from '../dto/intro-dto';
+import { SkillsDTO } from '../dto/skills-dto';
 
 @Injectable({
   providedIn: 'root'
@@ -31,6 +32,11 @@ export class ApiService {
 
   public getExperience(): Observable<ExperienceDTO>{
     let result = this.httpClient.get<ExperienceDTO>(environment.apiUrlExperienceGet);
+    return result;
+  }
+
+  public getSkill(): Observable<SkillsDTO>{
+    let result = this.httpClient.get<SkillsDTO>(environment.apiUrlSkillGet);
     return result;
   }
 
