@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ProjectDTO } from 'src/app/dto/project-dto';
+import { ApiService } from 'src/app/service/api.service';
 
 @Component({
   selector: 'app-projects',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectsComponent implements OnInit {
 
-  constructor() { }
+  data:ProjectDTO;
+
+  constructor(private api: ApiService) { }
 
   ngOnInit() {
-  }
 
+    this.api.getProject().subscribe((data)=>{      
+      this.data = data;
+    });
+  }
 }

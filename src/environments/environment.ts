@@ -10,6 +10,7 @@ export const environment = {
   apiUrlSkillGet: '/assets/json/skills.json',
   apiUrlFooterGet: '/assets/json/footer.json',
   apiUrlEducationGet: '/assets/json/education.json',
+  apiUrlProjectGet: '/assets/json/projects.json',
 
   snotifyConfig : {
     showProgressBar: true,
