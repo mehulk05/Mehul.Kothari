@@ -1,25 +1,23 @@
 {
     "educationTitle": "Education",
     "schools":
-    [
-        {
-            "school":"School Hide Name",
+    [{
+            "school": "School Hide Name",
             "period": "2018",
             "educationTitle": "Title ...",
             "category": "The course learn how ...",
-            "lines": 
+            "lines":
             [
                 "The main target is ...",
                 "The second target is ...",
                 "The third target is ..."
             ]
-        },
-        {
-            "school":"School2 Hide Name",
+        }, {
+            "school": "School2 Hide Name",
             "period": "2013",
             "educationTitle": "OLD Title ...",
             "category": "The course learn how ... but now ...",
-            "lines": 
+            "lines":
             [
                 "I don't remember ..."
             ]

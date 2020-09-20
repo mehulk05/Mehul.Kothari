@@ -1,41 +1,53 @@
 {
     "projectTitle": "Projects",
     "items":
-    [
-        {
-            "title":"My Project 1",
-            "text":"In the Project 1 I did ...",
+    [{
+            "title": "My Project 1",
+            "text": "In the Project 1 I did ...",
             "links":
-            [
-                {"title":"Project 1 - Link 1" , "link": "https:// ...."},
-                {"title":"Project 1 - Link 2" , "link": "https:// ...."}
+            [{
+                    "title": "Project 1 - Link 1",
+                    "link": "https:// ...."
+                }, {
+                    "title": "Project 1 - Link 2",
+                    "link": "https:// ...."
+                }
             ]
-        },
-        {
-            "title":"My Project 2",
-            "text":"In the Project 2 I did ...",
+        }, {
+            "title": "My Project 2",
+            "text": "In the Project 2 I did ...",
             "links":
-            [
-                {"title":"Project 2 - Link 1" , "link": "https:// ...."},
-                {"title":"Project 2 - Link 2" , "link": "https:// ...."}
+            [{
+                    "title": "Project 2 - Link 1",
+                    "link": "https:// ...."
+                }, {
+                    "title": "Project 2 - Link 2",
+                    "link": "https:// ...."
+                }
             ]
-        },
-        {
-            "title":"My Project 3",
-            "text":"In the Project 3 I did ...",
+        }, {
+            "title": "My Project 3",
+            "text": "In the Project 3 I did ...",
             "links":
-            [
-                {"title":"Project 3 - Link 1" , "link": "https:// ...."},
-                {"title":"Project 3 - Link 2" , "link": "https:// ...."}
+            [{
+                    "title": "Project 3 - Link 1",
+                    "link": "https:// ...."
+                }, {
+                    "title": "Project 3 - Link 2",
+                    "link": "https:// ...."
+                }
             ]
-        },
-        {
-            "title":"My Project 4",
-            "text":"In the Project 4 I did ...",
+        }, {
+            "title": "My Project 4",
+            "text": "In the Project 4 I did ...",
             "links":
-            [
-                {"title":"Project 4 - Link 1" , "link": "https:// ...."},
-                {"title":"Project 4 - Link 2" , "link": "https:// ...."}
+            [{
+                    "title": "Project 4 - Link 1",
+                    "link": "https:// ...."
+                }, {
+                    "title": "Project 4 - Link 2",
+                    "link": "https:// ...."
+                }
             ]
         }
     ]

@@ -1,13 +1,12 @@
 {
     "experienceTitle": "Jobs Experience",
     "jobs":
-    [
-        {
-            "company":"Company Hide Name",
+    [{
+            "company": "Company Hide Name",
             "period": "2018 - now",
             "jobTitle": "Freelance",
             "description": "Senior Developer / Cloud",
-            "skills": 
+            "skills":
             [
                 "Azure: Azure Function (HTTP / Timer & Queue), Datalake Analitics / DataLake Storage, Datafactory V2, Logic Apps",
                 "Source control: Git, Visual Studio Online",
@@ -17,13 +16,12 @@
                 "Dispatch Mail: Mailgun, ZeroBounce",
                 "Microsoft Visual Studio 2017 & 2019 ( & Code), Microsoft SQL Server Management Studio (SSMS), Azure Storage Explorer, Postman"
             ]
-        },
-        {
-            "company":"Company Hide Name",
+        }, {
+            "company": "Company Hide Name",
             "period": "2005 - 2018",
             "jobTitle": "Freelance",
             "description": "Senior Developer",
-            "skills": 
+            "skills":
             [
                 ".NET",
                 "Microsoft Visual Studio 2013 - TFS / Microsoft SQL Server",

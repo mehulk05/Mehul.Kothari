@@ -1,22 +1,45 @@
 {
     "imageBackGroundUrl": "/assets/image/devandreacarratta-header.jpg",
     "imageProfileUrl": "/assets/image/andrea-carratta.jpg",
-    "fullName":"Andrea Carratta",
+    "fullName": "Andrea Carratta",
     "shortDescription": "Do you like my job? Support me!",
     "buttons":
-    [
-        { "description" : "@PayPal" , "linkUrl":"https://www.paypal.com/biz/fund?id=BBPH5VRLM56BG"},
-        { "description" : "@CoinBase" , "linkUrl":"https://www.coinbase.com/join/carrat_42"},
-        { "description" : "@revolut" , "linkUrl":"http://pay.revolut.com/profile/andrea3mbg"},
-        { "description" : "@buymeacoffee" , "linkUrl":"https://www.buymeacoffee.com/andreacarratta"}
+    [{
+            "description": "@PayPal",
+            "linkUrl": "https://www.paypal.com/biz/fund?id=BBPH5VRLM56BG"
+        }, {
+            "description": "@CoinBase",
+            "linkUrl": "https://www.coinbase.com/join/carrat_42"
+        }, {
+            "description": "@revolut",
+            "linkUrl": "http://pay.revolut.com/profile/andrea3mbg"
+        }, {
+            "description": "@buymeacoffee",
+            "linkUrl": "https://www.buymeacoffee.com/andreacarratta"
+        }
     ],
     "socials":
-    [
-        { "socialId" : "facebook" , "profileUrl":"https://www.facebook.com/....", "followMeText":""},
-        { "socialId" : "instagram" , "profileUrl":"https://www.instagram.com/....", "followMeText":""},
-        { "socialId" : "linkedin" , "profileUrl":"https://www.linkedin.com/in/acarratta/", "followMeText":""},
-        { "socialId" : "github" , "profileUrl":"https://github.com/devandreacarratta/", "followMeText":""},
-        { "socialId" : "twitter" , "profileUrl":"https://twitter.com/dev_acarratta", "followMeText":""}
+    [{
+            "socialId": "facebook",
+            "profileUrl": "https://www.facebook.com/....",
+            "followMeText": ""
+        }, {
+            "socialId": "instagram",
+            "profileUrl": "https://www.instagram.com/....",
+            "followMeText": ""
+        }, {
+            "socialId": "linkedin",
+            "profileUrl": "https://www.linkedin.com/in/acarratta/",
+            "followMeText": ""
+        }, {
+            "socialId": "github",
+            "profileUrl": "https://github.com/devandreacarratta/",
+            "followMeText": ""
+        }, {
+            "socialId": "twitter",
+            "profileUrl": "https://twitter.com/dev_acarratta",
+            "followMeText": ""
+        }
 
     ]
 }

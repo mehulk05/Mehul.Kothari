@@ -1,8 +1,8 @@
 {
-    "siteTitle" : "DEV Portfolio API",
-    "navbarAbout" : "About",
-    "navbarExperience" : "Experience",
-    "navbarProjects" : "Projects",
-    "navbarSkills" : "Skills",
-    "navbarEducation" : "Education"
+    "siteTitle": "DEV Portfolio API",
+    "navbarAbout": "About",
+    "navbarExperience": "Experience",
+    "navbarProjects": "Projects",
+    "navbarSkills": "Skills",
+    "navbarEducation": "Education"
 }

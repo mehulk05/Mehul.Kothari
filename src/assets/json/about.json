@@ -1,12 +1,12 @@
 {
-    "aboutTitle":"About",
+    "aboutTitle": "About",
     "aboutDescriptionLines":
     [
         "Hi, I'm Andrea Carratta!",
         "Backend & Cloud Developer | Microsoft Azure Cloud | Azure DevOps",
         "Italian Freelance"
     ],
-    "basicInformationTitle":"Basic Information",
+    "basicInformationTitle": "Basic Information",
     "dateOfBirthTitle": "Date of Birth:",
     "dateOfBirthValue": "June 26, 1981",
 

@@ -1,24 +1,44 @@
 {
     "firstline":
-    [ 
-        {"title":"C#", "percentage":"100"} ,
-        {"title":"Azure Functions", "percentage":"100"} 
+    [{
+            "title": "C#",
+            "percentage": "100"
+        }, {
+            "title": "Azure Functions",
+            "percentage": "100"
+        }
     ],
     "secondline":
-    [ 
-        {"title":"Azure Data Factory", "percentage":"100"} ,
-        {"title":"Logic App", "percentage":"100"} 
+    [{
+            "title": "Azure Data Factory",
+            "percentage": "100"
+        }, {
+            "title": "Logic App",
+            "percentage": "100"
+        }
     ],
     "thirdline":
-    [ 
-        {"title":"SQL Server", "percentage":"70"} ,
-        {"title":"Other Skill", "percentage":"60"} ,
-        {"title":"Other Skill", "percentage":"50"} 
+    [{
+            "title": "SQL Server",
+            "percentage": "70"
+        }, {
+            "title": "Other Skill",
+            "percentage": "60"
+        }, {
+            "title": "Other Skill",
+            "percentage": "50"
+        }
     ],
     "fourthline":
-    [ 
-        {"title":"CSS", "percentage":"0"} ,
-        {"title":"HTML", "percentage":"0"} ,
-        {"title":"JS/JQuery", "percentage":"0"} 
+    [{
+            "title": "CSS",
+            "percentage": "0"
+        }, {
+            "title": "HTML",
+            "percentage": "0"
+        }, {
+            "title": "JS/JQuery",
+            "percentage": "0"
+        }
     ]
 }
