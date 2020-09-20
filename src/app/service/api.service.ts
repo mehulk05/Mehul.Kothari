@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/internal/Observable';
 import { environment } from 'src/environments/environment';
 import { AboutDTO } from '../dto/about-dto';
+import { EducationDTO } from '../dto/education-dto';
 import { ExperienceDTO } from '../dto/experience-dto';
 import { FooterDTO } from '../dto/footer-dto';
 import { HeaderDTO } from '../dto/header-dto';
@@ -43,6 +44,11 @@ export class ApiService {
 
   public getFooter(): Observable<FooterDTO>{
     let result = this.httpClient.get<FooterDTO>(environment.apiUrlFooterGet);
+    return result;
+  }
+
+  public getEducation(): Observable<EducationDTO>{
+    let result = this.httpClient.get<EducationDTO>(environment.apiUrlEducationGet);
     return result;
   }
 

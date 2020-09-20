@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { EducationDTO } from 'src/app/dto/education-dto';
+import { ApiService } from 'src/app/service/api.service';
 
 @Component({
   selector: 'app-education',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EducationComponent implements OnInit {
 
-  constructor() { }
+  data:EducationDTO;
+
+  constructor(private api: ApiService) { }
 
   ngOnInit() {
-  }
 
+    this.api.getEducation().subscribe((data)=>{      
+      this.data = data;
+    });
+  }
 }

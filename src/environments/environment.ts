@@ -9,6 +9,7 @@ export const environment = {
   apiUrlExperienceGet: 'http://localhost:4200/assets/json/experience.json',
   apiUrlSkillGet: 'http://localhost:4200/assets/json/skills.json',
   apiUrlFooterGet: 'http://localhost:4200/assets/json/footer.json',
+  apiUrlEducationGet: 'http://localhost:4200/assets/json/education.json',
 
   snotifyConfig : {
     showProgressBar: true,

@@ -1,0 +1,28 @@
+{
+    "educationTitle": "Education",
+    "schools":
+    [
+        {
+            "school":"School Hide Name",
+            "period": "2018",
+            "educationTitle": "Title ...",
+            "category": "The course learn how ...",
+            "lines": 
+            [
+                "The main target is ...",
+                "The second target is ...",
+                "The third target is ..."
+            ]
+        },
+        {
+            "school":"School2 Hide Name",
+            "period": "2013",
+            "educationTitle": "OLD Title ...",
+            "category": "The course learn how ... but now ...",
+            "lines": 
+            [
+                "I don't remember ..."
+            ]
+        }
+    ]
+}
