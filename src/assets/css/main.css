@@ -4957,46 +4957,6 @@ img {
   color: #fff;
 }
 
-/* References Style */
-.cc-reference .card {
-  padding: 40px;
-}
-
-.cc-reference img {
-  height: 150px;
-  width: auto;
-}
-
-
-
-.cc-reference .h5 {
-  margin: 0;
-}
-
-.cc-reference .carousel-indicators li {
-  background: #a5a3a3;
-}
-
-.cc-reference .carousel-indicators .active {
-  background-color: #00334D;
-}
-
-.cc-reference .carousel-inner {
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
-
-@media (max-width: 768px) {
-  .cc-reference .cc-reference-header {
-    text-align: center;
-  }
-  .cc-reference .carousel-indicators {
-    bottom: 0px;
-  }
-  .cc-reference ol {
-    margin-bottom: 0;
-  }
-}
 
 /* Contact Information Style */
 .cc-contact-information {
