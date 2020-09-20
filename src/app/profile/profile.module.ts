@@ -9,7 +9,6 @@ import { AboutComponent } from './about/about.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { EducationComponent } from './education/education.component';
-import { ContactComponent } from './contact/contact.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { SnotifyModule, SnotifyService, ToastDefaults } from 'ng-snotify';
@@ -30,7 +29,6 @@ import { SnotifyModule, SnotifyService, ToastDefaults } from 'ng-snotify';
     SkillsComponent,
     ExperienceComponent,
     EducationComponent,
-    ContactComponent,
     ProjectsComponent
   ],
   providers: [

@@ -5,5 +5,4 @@ export class HeaderDTO {
     public navbarProjects: string;
     public navbarSkills: string;
     public navbarEducation: string;
-    public navbarContact: string;
 }
