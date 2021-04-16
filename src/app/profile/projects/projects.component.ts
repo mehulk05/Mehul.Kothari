@@ -26,7 +26,7 @@ export class ProjectsComponent implements OnInit {
       livedemo: 'https://mehulk05.github.io/Blogapp-using-MERN/#/',
       githurl: 'https://github.com/mehulk05/Blogapp-using-MERN',
       mediumlink: 'https://itnext.io/blog-app-using-mern-stack-b0b4d69d7ea1',
-      imgUrl: 'assets/images/z2.gif',
+      imgUrl: 'assets/images/z26.png',
       tech: 'React, Node, MongoDB, Express'
     },
 
@@ -38,7 +38,7 @@ export class ProjectsComponent implements OnInit {
       livedemo: 'https://mehulk05.github.io/Blog-using-mean/#/',
       githurl: 'https://github.com/mehulk05/Blog-using-mean',
       mediumlink: 'https://itnext.io/crud-operation-using-mean-stack-7dfa2f51ec8c',
-      imgUrl: 'assets/images/z2.gif',
+      imgUrl: 'assets/images/z27.png',
       tech: 'Angular 10, Node, MongoDB, Express'
     },
 
@@ -49,7 +49,7 @@ export class ProjectsComponent implements OnInit {
       livedemo: 'https://chatapp-using-node.herokuapp.com/',
       githurl: 'https://github.com/mehulk05/Chat-app-using-Nodejs',
       mediumlink: 'https://medium.com/weekly-webtips/building-a-multiroom-chat-application-in-node-js-8a8adca5acf2',
-      imgUrl: 'assets/images/z3.gif',
+      imgUrl: 'assets/images/z23.png',
       tech: 'Node JS,Socket IO'
     },
 
@@ -74,7 +74,7 @@ export class ProjectsComponent implements OnInit {
       livedemo: 'https://mehulk05.github.io/NewsApp-using-React',
       githurl: 'https://github.com/mehulk05/NewsApp-using-React',
       mediumlink: 'https://codeburst.io/news-app-using-reactjs-f9752d7ab6ce',
-      imgUrl: 'assets/images/z5.gif',
+      imgUrl: 'assets/images/z24.png',
       tech: 'React JS, XMl to JSON'
     },
 
@@ -87,7 +87,7 @@ export class ProjectsComponent implements OnInit {
       livedemo: 'https://mehulk05.github.io/Blog-Book/',
       githurl: 'https://github.com/mehulk05/Blog-Book',
       mediumlink: 'https://codeburst.io/blogging-app-using-angular-9-and-firebase-98e36168d850',
-      imgUrl: 'assets/images/z7.gif',
+      imgUrl: 'assets/images/z21.png',
       tech: 'HTML, Bootstrap, CSS, Angular-9, Firebase'
     },
 
@@ -100,7 +100,7 @@ export class ProjectsComponent implements OnInit {
       livedemo: 'https://mehulk05.github.io/COVOID-19/',
       githurl: 'https://github.com/mehulk05/COVOID-19',
       mediumlink: 'https://codeburst.io/covoid-19-tracker-statistics-app-using-angular-2358347b3d1f',
-      imgUrl: 'assets/images/z8.gif',
+      imgUrl: 'assets/images/z2.png',
       tech: 'Angular 10 ,Bootstrap,Javascript'
     },
 
@@ -124,7 +124,7 @@ export class ProjectsComponent implements OnInit {
       livedemo: 'https://github.com/mehulk05/Spring-Boot-Angular-8-CRUD-Example',
       githurl: 'https://github.com/mehulk05/Spring-Boot-Angular-8-CRUD-Example',
       mediumlink: 'https://medium.com/analytics-vidhya/spring-boot-angular-8-crud-example-8aeafd47b54',
-      imgUrl: 'assets/images/z10.gif',
+      imgUrl: 'assets/images/z28.png',
       tech: 'Angular8, Java ,Hibernate'
     },
 
