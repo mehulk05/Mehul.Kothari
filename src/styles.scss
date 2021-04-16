@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
+.ngx-pagination {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ngx-pagination li {
+    display: inline-block;
+    font-size: 19px;
+    font-weight: bold;
+}
