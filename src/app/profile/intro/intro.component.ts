@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ProfileService } from '../profile.service';
 
 @Component({
   selector: 'app-intro',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./intro.component.scss']
 })
 export class IntroComponent implements OnInit {
-
-  constructor() { }
+  cvUrl
+  constructor(private profileService:ProfileService) { }
 
   ngOnInit() {
+    
+    this.cvUrl =  this.profileService.resumeurl
   }
 
 }

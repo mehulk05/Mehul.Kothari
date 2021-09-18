@@ -6,7 +6,26 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="timeline-centered">
-                        <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                        <article *ngFor="let exp of workexp" class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                            <div class="timeline-entry-inner">
+
+                                <div class="timeline-icon color-2">
+                                    <i class="icon-pen2"></i>
+                                </div>
+
+                                <div class="timeline-label">
+                                    <h2>{{exp.company}}<span>- &nbsp;{{exp.timeline}}, {{exp.location}}</span></h2>
+                                    <h4> {{exp.role}}</h4>
+                                    
+                                    <ul>
+                                      <li *ngFor="let work of exp.work | split">{{work}}</li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                             <div class="timeline-entry-inner">
 
                                 <div class="timeline-icon color-2">
@@ -69,7 +88,7 @@
 
                                 </div>
                             </div>
-                        </article>
+                        </article> -->
                     </div>
                 </div>
             </div>

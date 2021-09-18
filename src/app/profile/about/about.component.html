@@ -5,14 +5,12 @@
           <div class="col-lg-6 col-md-12">
             <div class="card-body">
               <div class="h4 mt-0 title">About</div>
-              <p>Hi I'm <strong>Mehul Kothari</strong>  .Currently I am AEM Developer and also have expertise with Angular8 ,Django,Python, Java and front end . Done few live projects and portfolio work in above.Won the best student award 3 times at college.Also won Devang Mehta IT awards which is one of biggest event of Gujurat in which Best Student of Year of college get awards.Maintained above 9.57 cgpa.</p>
-
-
-              <p>
-                Lover of innovation and everything related to generate new knowledge.Face problems with a smile and solve them as soon as possible. Very calculated about the time I spend and work I do.
-              </p> 
-                
-          
+              <div>
+                <ul>
+                  <li *ngFor="let m of about2 | split">{{m}}</li>
+                </ul>
+              </div>
+                <p>{{about1}}</p>
             </div>
           </div>
           <div class="col-lg-6 col-md-12">

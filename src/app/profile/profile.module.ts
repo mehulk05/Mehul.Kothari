@@ -16,6 +16,7 @@ import { ContactComponent } from './contact/contact.component';
 import { NgxSpinnerModule } from '../../../node_modules/ngx-spinner';
 import { ProjectsComponent } from './projects/projects.component';
 import { NgxPaginationModule } from 'ngx-pagination';
+import { SplitPipe } from './split.pipe';
 
 @NgModule({
   imports: [
@@ -37,7 +38,8 @@ import { NgxPaginationModule } from 'ngx-pagination';
     EducationComponent,
     ReferenceComponent,
     ContactComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    SplitPipe
   ],
   providers: [
     { provide: 'SnotifyToastConfig', useValue: ToastDefaults},
