@@ -14,18 +14,17 @@ const routes: Routes = [
   }
 ];
 
-const config: ExtraOptions = {
-  useHash: true,
-};
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     BrowserAnimationsModule,
-    RouterModule.forRoot(routes, config),
+    RouterModule.forRoot(routes, {
+    initialNavigation: 'enabled'
+}),
     ProfileModule,
     HttpClientModule
   ],
