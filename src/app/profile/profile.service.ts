@@ -187,7 +187,7 @@ export class ProfileService {
   Have good understanding of Python, Jquery, Bootstrap, MongoDB, Firebase, and MYSQL`
 
   about = "Lover of innovation and everything related to generate new knowledge.Face problems with a smile and solve them as soon as possible. Very calculated about the time I spend and work I do."
-  resumeurl = "https://drive.google.com/file/d/1XY0xlYDX8aZA1KwCnnjH6Y3G4iTWcV-D/view?usp=sharing"
+  resumeurl = "https://docs.google.com/document/d/1WODFuhIzQw2AXPsjt6f3rs-EDWhdhT8s89fOTrGRh70/edit?usp=sharing"
 
   skillsData: any = [
     {
@@ -230,8 +230,8 @@ export class ProfileService {
       'education': 'Bachelor\'s Degree',
       'stream': 'Bachelor of Engineering',
       'info': `Aditya Silver Oak Institute is GTU Affiliated and ranks 7th in Gujurat
-Completed B.E in Computer Engineering with 9.54 CGPA.  
-Won the Best Student Award 3 times for excellent Academic records at College. 
+Completed B.E in Computer Engineering with 9.54 CGPA.
+Won the Best Student Award 3 times for excellent Academic records at College.
 Maintained above 9.1 spi in every semester of college academic .`,
       'institution': 'ADITYA SILVER OAK INSTITUTE OF TECHNOLOGY, AHMEDABAD'
     },
@@ -271,23 +271,22 @@ Completed my Secondary school with 84%.`
       location: 'Ahmedabad',
       timeline: 'Feb 2021 to June 2021',
       role: 'Software Developer',
-      work: `Technologies : Angular , Node JS , MongoDB . 
-      Worked on the web application built in Angular for different business and Campaigns . 
+      work: `Technologies : Angular , Node JS , MongoDB .
+      Worked on the web application built in Angular for different business and Campaigns .
       Contributed on developing the admin dashboard with different charts and insights for the application.`
     },
-
-    {
-      id: 2,
-      company: 'Growth99',
-      location: 'Remote',
-      timeline: '',
-      role: 'Frontend  Developer',
-      work: `Technologies : Angular , Node JS , MongoDB . 
-  Worked on the product of Growth99 which allowed other clients to come and integrate our product in their website . 
-  Worked on REST Api , Admin Dashboard , Appointment Booking for services and UI of the application . 
-  Created sections like templates for email, sms, landing pages, clinic, services, providers and triggers Automation. 
-  `
-    },
+  //   {
+  //     id: 2,
+  //     company: 'Growth99',
+  //     location: 'Remote',
+  //     timeline: '',
+  //     role: 'Frontend  Developer',
+  //     work: `Technologies : Angular , Node JS , MongoDB .
+  // Worked on the product of Growth99 which allowed other clients to come and integrate our product in their website .
+  // Worked on REST Api , Admin Dashboard , Appointment Booking for services and UI of the application .
+  // Created sections like templates for email, sms, landing pages, clinic, services, providers and triggers Automation.
+  // `
+  //   },
 
     {
       id: 1,
@@ -295,17 +294,41 @@ Completed my Secondary school with 84%.`
       location: 'Gandhinagar and Pune',
       timeline: 'June 2019 - Jan 2021',
       role: 'Assistant System Engineer Trainee',
-      work: `Technologies : Angular , JavaSpring Boot , SQL. Apache Solr . 
-  
-  Project 1 : Worked on uploading two excel sheets with bulk of data and finding the matches for each business . 
-  
-  Project 2 : Worked on indexing the search results inside the application with bulk of data using Apache Solr and configuring the server with cron jobs and shell scripts . 
-  
+      work: `Technologies : Angular , JavaSpring Boot , SQL. Apache Solr .
+
+  Project 1 : Worked on uploading two excel sheets with bulk of data and finding the matches for each business .
+
+  Project 2 : Worked on indexing the search results inside the application with bulk of data using Apache Solr and configuring the server with cron jobs and shell scripts .
+
   Worked on ranking the search results based on various criteria,features and delivering the accurate results based on generated scores.
   `
     },
 
 
+  ]
+
+  extraCircularInfo: any = [
+    {
+      id:1,
+      title: 'Blogger',
+      description: '',
+      img: 'assets/images/Mehul Kothari – Medium1.png',
+      url: 'https://mehulkothari05.medium.com/'
+    },
+    {
+      id:1,
+      title: 'Github',
+      description: '',
+      img: 'assets/images/Mehulkothari_github.png',
+      url: 'https://www.upwork.com/freelancers/~016d6f497a5629df4b'
+    },
+    {
+      id:1,
+      title: 'Freelancing',
+      description: '',
+      img: 'assets/images/mehul_freelancing.png',
+      url: 'https://www.upwork.com/freelancers/~016d6f497a5629df4b'
+    },
   ]
   // contactus(data: any): Observable<any> {
   //   return this.http.post(this.baseUrl + 'contact', data);
@@ -328,5 +351,10 @@ Completed my Secondary school with 84%.`
   exprience(): Observable<any> {
     // return this.http.get(this.baseUrl + 'exprience');
     return this.exprienceData;
+  }
+
+  extraCircular(): Observable<any> {
+    // return this.http.get(this.baseUrl + 'exprience');
+    return this.extraCircularInfo;
   }
 }

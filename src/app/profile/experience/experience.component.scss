@@ -1,15 +1,16 @@
 li{
   padding-top: 5px;
-  
+  font-size: 14px;
+
 }
 .colorlib-experience
 {
     padding-top: 4em;
     padding-bottom: 9em;
-  
+
     clear: both;
     width: 100%;
-    display: block; 
+    display: block;
 }
     @media screen and (max-width: 768px)
     {
@@ -24,21 +25,21 @@ li{
     .timeline-centered {
         position: relative;
         margin-bottom: 30px; }
-      
+
       .timeline-centered:before, .timeline-centered:after {
         content: " ";
         display: table; }
-      
+
       .timeline-centered:after {
         clear: both; }
-      
+
       .timeline-centered:before, .timeline-centered:after {
         content: " ";
         display: table; }
-      
+
       .timeline-centered:after {
         clear: both; }
-      
+
       .timeline-centered:before {
         content: '';
         position: absolute;
@@ -48,18 +49,18 @@ li{
         top: 20px;
         bottom: 20px;
         margin-left: 29px; }
-      
+
       .timeline-centered .timeline-entry {
         position: relative;
         margin-top: 5px;
         margin-left: 30px;
         margin-bottom: 10px;
         clear: both; }
-      
+
       .timeline-centered .timeline-entry .timeline-entry-inner {
         position: relative;
         margin-left: -20px; }
-      
+
       .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
         display: block;
         width: 40px;
@@ -90,7 +91,7 @@ li{
           width: 20px;
           height: 20px;
           margin-left: 10px; }
-      
+
       .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
         position: relative;
         background: #f2f3f7;
@@ -99,7 +100,7 @@ li{
         -webkit-background-clip: padding-box;
         -moz-background-clip: padding;
         background-clip: padding-box; }
-      
+
       .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label:after {
         content: '';
         display: block;
@@ -112,45 +113,45 @@ li{
         left: 0;
         top: 10px;
         margin-left: -9px; }
-      
+
       .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p + p {
         margin-top: 15px; }
-      
+
       .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 {
         font-size: 20px;
         font-family: "Quicksand", Arial, sans-serif;
         font-weight: 500; }
-      
+
       .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 a {
         color: #000; }
-      
+
       .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 span {
         -webkit-opacity: 5;
         -moz-opacity: .5;
         opacity: .5;
         -ms-filter: alpha(opacity=40);
         filter: alpha(opacity=40);
-        font-size: 16px; 
-      
+        font-size: 16px;
+
       }
-      
+
       .timeline-label h4{
-       
+
         margin-top: -15px;
         font-family: "Quicksand", Arial, sans-serif;
         color: #545755;
         font-weight: 600;
     font-size: 17px;
-      
-      
+
+
       }
       .timeline-label span{
         padding-left: 1em;
        color: #000;font-weight: 600;
       }
-      
+
       .timeline-label p{
-      
+
         font-size: 16px;font-weight:500;
       }
       .timeline-label ul{

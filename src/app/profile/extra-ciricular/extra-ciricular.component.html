@@ -1,0 +1,41 @@
+<div class="section" id="extra-curicular">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 ml-auto mr-auto">
+        <div class="h4 text-center mb-4 title">More About Me</div>
+        <div class="nav-align-center">
+          <ul class="nav nav-pills nav-pills-primary" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="tab" href="#web-development" role="tablist">
+                <i class="fa fa-laptop" aria-hidden="true"></i>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="tab-content gallery mt-5">
+      <div class="tab-pane active" id="web-development">
+        <div class="ml-auto mr-auto">
+          <div class="row">
+            <div class="col-lg-4 col-md-12" *ngFor="let extra of extras">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <a href={{extra.url}}>
+                  <figure class="cc-effect">
+                    <img src={{extra.img}} alt="Image" />
+                    <figcaption>
+                      <div class="h4">{{extra.title}}</div>
+
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
