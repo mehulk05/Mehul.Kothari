@@ -1,0 +1,20 @@
+<div class="section" id="skill">
+    <div class="container">
+        <div class="h4 text-center mb-4 title">Skills</div>
+        <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6" *ngFor="let skill of skills">
+                        <div class="progress-container progress-primary">
+                            <span class="progress-badge">{{skill.skill}}</span>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: {{skill.progress}}"></div>
+                                <span class="progress-value">{{skill.progress}}</span>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+          
+        </div>
+    </div>
+</div>

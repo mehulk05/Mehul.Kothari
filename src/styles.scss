@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+div,p,h1,h2,h3,h4,h5,h6,li,span{
+    font-family: 'Poppins', sans-serif !important;
+}
+.ngx-pagination {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ngx-pagination li {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50%;
+
+}
+.ngx-pagination .current{
+  width: 35px;
+  border-radius: 50%;
+    height: 35px;
+}
+.ngx-pagination .current span
+{
+  margin-top: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

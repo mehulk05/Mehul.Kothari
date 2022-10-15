@@ -1,0 +1,10 @@
+.cc-porfolio-image {
+  height: 225px;
+  margin-bottom: 1em;
+}
+.cc-porfolio-image  figure,
+.cc-porfolio-image  img{
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}

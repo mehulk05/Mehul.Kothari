@@ -1,0 +1,30 @@
+<div class="section" id="projects">
+    <div class="container cc-education">
+        <div class="h4 text-center mb-4 title">Projects</div>
+
+        <pagination-controls (pageChange)="pageChanged($event)"></pagination-controls>
+        <div class="row">
+
+            <ng-container *ngFor="let project of projects| paginate: config">
+                <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+                    <div class="blog-entry">
+                        <div class="card">
+                            <img class="card-img-top" src={{project.imgUrl}} onerror="this.src = 'assets/images/gif.gif'" alt="Card image" style="width:100%">
+                            <div class="card-body">
+                                <h4 class="card-title">{{project.title}}</h4>
+                                <h5 class="card-text"><b>Technology :</b> {{project.tech}} </h5>
+                                <h5 class="card-text"><a href={{project.mediumlink}}>Read Blog on this  Project</a></h5>
+
+                                <a href={{project.livedemo}} class="btn btn-primary stretched-link ml-2 mr-5">Live Demo</a>
+                                <a href={{project.githurl}} class="btn btn-primary stretched-link">GithubLink</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ng-container>
+        </div>
+
+        <pagination-controls (pageChange)="pageChanged($event)"></pagination-controls>
+    </div>
+</div>
