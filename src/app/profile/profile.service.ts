@@ -320,7 +320,7 @@ Completed my Secondary school with 84%.`
       title: 'Github',
       description: '',
       img: 'assets/images/Mehulkothari_github.png',
-      url: 'https://www.upwork.com/freelancers/~016d6f497a5629df4b'
+      url: 'https://github.com/mehulk05/'
     },
     {
       id:1,
