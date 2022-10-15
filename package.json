@@ -25,6 +25,7 @@
     "@angular/platform-server": "~10.2.5",
     "@angular/router": "~10.2.5",
     "@nguniversal/express-engine": "^10.1.0",
+    "@types/express-serve-static-core": "^4.17.31",
     "express": "^4.15.2",
     "ngx-pagination": "^5.0.0",
     "rxjs": "~6.6.7",
